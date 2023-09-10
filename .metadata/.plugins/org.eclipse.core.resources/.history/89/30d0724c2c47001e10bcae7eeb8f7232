@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class vidu {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int a = 200;
+		int b = 100;
+		
+		System.out.println("a= "+a);
+		System.out.println(" b= "+b);
+		
+		// Ep kieu ngam dinh
+		float c=  a;
+		float d = b;
+		
+		System.out.println("c= "+c);
+		System.out.println("d= "+d);
+		 // ep kieu tuong minh
+		
+		float e = 3.5f;
+		float f = 9.5f;
+		
+		int g = (int)e;
+		int h = (int)f;
+		System.out.println("g =" +g);
+		System.out.println("h= "+h);
+		
+		
+	}
+	
+}

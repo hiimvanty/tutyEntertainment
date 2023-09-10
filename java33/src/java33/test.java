@@ -1,0 +1,12 @@
+package java33;
+
+public class test {
+	public static void main(String[] args) {
+		vidu vd = new vidu(6, 1, 2002);
+		vidu vd2 = new vidu(3, 11, 2002);
+		vidu vd3 = new vidu(23, 11, 2018);
+		System.out.println(vd);
+		System.out.println(vd2);
+	}
+
+}
